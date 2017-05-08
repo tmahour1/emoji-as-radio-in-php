@@ -1,0 +1,8 @@
+body{background:#F0F3F4}
+.tmreaction{background-color: #fff;border: 1px solid #e7ecee;display: block;box-shadow:0 2px 2px -2px rgba(0, 0, 0, 0.2);border-radius:4px;text-align: center;}
+.tminput_hidden{position: absolute;left: -9999px;}
+.tmreaction  label img{-moz-transition: all 0.25s;-webkit-transition: all 0.25s;transition: all 0.25s;-moz-transform: scale(0.8);-webkit-transform: scale(0.8);transform: scale(0.8);max-width:40px;}
+.tmreaction  label:hover img{-moz-transform: scale(1);-webkit-transform: scale(1);transform: scale(1);}
+/*.selected{background-color: #ccc;}*/
+.tmreaction label{display: inline-block;cursor: pointer;}
+.tmreaction label img{padding:10px 0;}
